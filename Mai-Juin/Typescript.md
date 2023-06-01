@@ -29,7 +29,12 @@ function getName(name : string) : string {
 	return name
 }
 ```
-
+	=> On peut également donner des valeurs par défauts dans les paramètres de notre fonction
+```ts
+function getName(name: string = "Bob"): string {
+	return name
+}
+```
 
 Une variable peut avoir plusieurs types :
 ``` ts
@@ -51,8 +56,8 @@ enum StudentStatus {
 }
 ```
 
-Il propose également des **interfaces**.
-On peut comparer une interface à un contrat, implémenter une interface c'est s'engager à posséder toutes les propriétés présentées dans l'interface.
+Il propose également des **interfaces** (que l'on peut également définir avec le mot-clé **type**)
+On peut comparer une interface à un contrat, implémenter une interface c'est s'engager à posséder toutes les propriétés présentées dans l'interface. (Il peut être complémentaire de la classe)
 ``` typescript
 interface Student {
 	firstname : string, 
@@ -62,15 +67,30 @@ interface Student {
 	followInClass(cours : string) : void //on peut aussi passer des fonctions en propriétés
 }
 
-const Angelo : Student = new Student({
-	"Angelo", 
-	"MACAIRE", 
-	22, 
-	StudentStatus.Focused, 
+const Angelo : Student = {
+	firstname : "Angelo", 
+	lastame : "MACAIRE", 
+	age : 22, 
+	status : StudentStatus.Focused, 
 	followInClass: function(cours: string){ console.log("je suis en " + cours)}
-})
+}
 ```
 
+```ts
+type Student =  {
+	firstname: string, 
+	lastname: string, 
+	age: number, 
+	status: StudentStatus
+}
+const Angelo : Student = {
+	firstname : "Angelo", 
+	lastame : "MACAIRE", 
+	age : 22, 
+	status : StudentStatus.Focused,
+}
+
+```
 ### Les fonctions ts
 ``` ts
 function createStudent(firstname : string, lastname : string, age : number, status? : StudentStatus) : Student {
@@ -87,7 +107,8 @@ function createStudent(firstname : string, lastname : string, age : number, stat
 + le ? permet de rendre optionnel le typage
 
 ## Les classes
-C'est la base de la programmation orienté object, mode d'emploi qui va indiquer comment les entité de notre programme vont intéragir entre eux 
+C'est la base de la programmation orienté object, mode d'emploi qui va indiquer comment les entité de notre programme vont intéragir entre eux.
+Une classe se suffit a elle même et est très complète. 
 Et les objets qui sont la classe qui prends vie grâce à l'instanciation avec "new" (on fait une instance). 
 
 ``` ts
@@ -129,3 +150,11 @@ class Vehicule {
 
 const car : Vehicule = new Vehicule("Peugeot", "white", 10);
 ```
+
+Typescript supporte aussi ce que l'on appelle la genericite (avec l'exemple ci-dessus)
+``` ts
+const pleinsDeVoitures: Array<Vehicule> = [new Vehicule()];
+```
+
+_______________________________________________________________________________
+## Tsconfig.json

@@ -8,7 +8,7 @@ Awesome web feature : https://www.youtube.com/watch?v=q1fsBWLpYW4
 
 **Aide au typescript :** 
 Learning typescript (livre)
-Effective typescript (livre)
+Effective typescript (livre) 
 
 **Entraînement typescript**
 typescript challenge dépot git : https://github.com/type-challenges/type-challenges
