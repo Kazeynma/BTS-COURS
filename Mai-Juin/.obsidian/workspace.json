@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "8db3f3a9533fd6fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "81292057fc40192a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "657c4b870e9e184e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c99887584bcefb0f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230605113423.png"
+              }
+            }
+          },
+          {
+            "id": "2977792678cd4d7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dépendances.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e97d53f867dd0460",
+    "type": "split",
+    "children": [
+      {
+        "id": "d57f85b119edd271",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbe284a04272e45c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5fef5985861234f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f2a3544886fdaf7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d75abeaf4d6ec438",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a6e518c7df6ca39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95f43094b3ff09cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "React.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f927b196d3cc87d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "React.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "607a197f82f0de9b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d6cb565ab25f86f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "React.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "657c4b870e9e184e",
+  "lastOpenFiles": [
+    "Pasted image 20230605113423.png",
+    "React.md",
+    "Dépendances.md",
+    "SiteWeb TIPS.md",
+    "Typescript.md",
+    "Typscript-config.md",
+    "Untitled.canvas",
+    "Package.json VITE.md",
+    "Package.json.md"
+  ]
+}

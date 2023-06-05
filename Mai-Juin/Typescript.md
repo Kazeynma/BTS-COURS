@@ -155,6 +155,3 @@ Typescript supporte aussi ce que l'on appelle la genericite (avec l'exemple ci-d
 ``` ts
 const pleinsDeVoitures: Array<Vehicule> = [new Vehicule()];
 ```
-
-_______________________________________________________________________________
-## Tsconfig.json

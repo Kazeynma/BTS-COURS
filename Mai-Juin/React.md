@@ -82,7 +82,8 @@ export {myFuncA, myFuncB, myFuncC}; // syntaxe de l'export nommé
 
 A ne pas oublier à faire , dans le package.json :
 ``` json
-"type" : "module
+"type" : "modulene;
+  text-rendering: op
 ```
 *Pour pouvoir utiliser la syntaxe import/export* // module pour ESmodule
 
@@ -171,3 +172,77 @@ onClick={()}
 Pour le handler on a une convention pour les nommer :
 - handleClick
 - clickHandler
+
+# React TS
+## type Props
+```tsx
+type Props =  {
+	name: string, 
+	age : number
+}
+
+function getUser({name, age} : Props){}
+```
+
+Condition ternaire :
+```ts
+type === "warning" ? "Warning" : "Information"
+```
+
+
+## React Dev tools (Browser extension)
+Apport de information sur :
+- les props
+- les hook (si on clique sur le petit pinceau on peut voir le status des variables d'état)
+- rendered by
+- source
+
+## Hook 
+Ce sont des fonctions
+
+### UseState
+Lorsque l'on utilise useState, pour préciser le type de la valeur : 
+```tsx
+const [visible, setVisible] = useState<boolean>(true)
+```
+
+### UseEffect
+Permet de gérer les effets de bords en React (sideEffect)
+2 paramètres : 
+- premier : celui qui va s'exécuter à certain moment
+- deuxième : tableau de dépendances
+	- s'il est vide = notre state est mis à jour à chaque rendu 
+	- s'il y a un élément = s'exécute à chaque fois que cette variable change
+
+**Les règles à respecter pour les hooks React : **
+- les hooks ne peuvent être appelé qu'au niveau le plus haut d'un composant. Et il ne peuvent pas être appelé dans une boucle ou au sein nd'un event handler
+- un hook ne peut pas être appelé conditionnellement
+- les hooks ne peuvent être appelé qu'à l'intérieur de composant fonction et pas dans un composant classe
+
+## Render
+Quand on render, il arrive parfois que les choses se fassent en deux fois. Pour régler ce problème, il faut enlever les balises "React.StrictMode" dans Main.tsx.
+
+Si on veut faire un affichage conditionnel : 
+```ts
+{loading && <div>Loading...</div> }
+ {!loading && <div>Hello {name}</div> }
+```
+
+## Style
+- CSS in JS
+*Repose sur l'utilisation des libs : styled-components & Emotion*
+```tsx
+export default function App() {
+	const [important, setImportant] = useState(false)
+	return (
+		<div
+		css={` 
+			font-weight: ${important}$; 
+			font-size: 2rem;
+			color: black
+		`}
+		>
+		</div>
+	)
+}
+```
