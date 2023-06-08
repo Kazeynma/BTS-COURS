@@ -12,7 +12,7 @@ tsc
 ```
 tsc = typescript compiler (on a besoin de convertir le ts en js pour que les navigateurs puissent l'exécuter)
 
-Typescript nous permet d'assigner des types à nos variables.
+Typescript nous permet d'assigner des types à nos variables. Mais il y a aussi l'inférence de type => typescript va assigner lui même un type
 ``` ts
 let age : number = 20;
 let greeting : string = "Hello World"
@@ -41,7 +41,7 @@ Une variable peut avoir plusieurs types :
 let iCanChangeType : number | boolean = 4;
 iCanChangeType = false;
 ```
-Il faut faire attention aux fonctions que l'on utilise, les comportements seront différents en fonction du type de notre variable. On peut également trouver des fonctions qui ne fonctionne qu'avec un certain type.
+Il faut faire attention aux fonctions que l'on utilise, les comportements seront différents en fonction du type de notre variable. On peut également trouver des fonctions qui ne fonctionne qu'avec un certain type. **Ce signe ( | ) s'appelle pipe.**
 ________________________________________________
 TS nous permet d'ajouter des informations supplémentaire sur le type des variables. 
 On peut même créer ses propres types.

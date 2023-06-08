@@ -1,4 +1,5 @@
-
+Rendu server
+React Backoffice
 ?) Firebase (pour les app mobile, nous aide à faire beaucoup moins de code au départ)
 
 # Introduction à React 
@@ -95,6 +96,8 @@ export default myFuncA;
 
 
 ## Initialisation d'un projet REACT
+Vite = outil de développement qui va améliorer notre temps de travail, maintenance du code
+
 ``` bash
 npm create vite@latest
 // ou
@@ -205,6 +208,8 @@ Lorsque l'on utilise useState, pour préciser le type de la valeur :
 ```tsx
 const [visible, setVisible] = useState<boolean>(true)
 ```
+Ce hook d'état va retourner un tabeau que l'on va récupérer avec la méthode de destructuration
+
 
 ### UseEffect
 Permet de gérer les effets de bords en React (sideEffect)
@@ -246,3 +251,41 @@ export default function App() {
 	)
 }
 ```
+
+Module CSS  => permet de scope le css
+
+## Utilisation d'event
+*Si on mets des parenthèses on fait un appel de fonction mais si on ne les mets pas on fait une référence (vaut mieux le faire, ne se déclenche que lors d'un événement)*
+
+Référence = adresse mémoire
+
+### Spread operator
+Les spread operator sont représentés par ...
+```ts
+let etudiant = {
+	name : "bob", 
+	age : 13, 
+	class : "4e"
+}
+
+ etudiant = {
+	...etudiant, 
+	age : 15 // on overwrite l'age de étudiant
+}
+
+console.log(etudiant) // {name : "bob", age : 15, class: "4e"}
+```
+
+### Rest operator
+Utilisation : 
+```ts
+const hobbies = ["draw", "programming", "video games", "book"]
+const [hobby2, ...rest] = hobbies 
+console.log(hobbies2) // "draw"
+console.log(hobbies) // ["programming", "video games", "book"]
+```
+# FrontEnd / Backend
+Lazy loading 
+
+App React pas bon pour SEO => pour ça que les entreprises ont un site vitrine avec des liens qui vont emmener vers l'application React 
+![[Pasted image 20230606120612.png]]

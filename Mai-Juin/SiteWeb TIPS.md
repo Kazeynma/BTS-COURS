@@ -15,3 +15,7 @@ Effective typescript (livre)
 typescript challenge dépot git : https://github.com/type-challenges/type-challenges
 
 Sprint (java)
+
+Kaggle : site pour data scientist (plateforme pour apprendre tous ce qui est traitement de donnée)
+
+Collection d'API  https://github.com/public-apis/public-apis
