@@ -19,3 +19,8 @@ Sprint (java)
 Kaggle : site pour data scientist (plateforme pour apprendre tous ce qui est traitement de donnée)
 
 Collection d'API  https://github.com/public-apis/public-apis
+
+
+ACRONYME MERN : MongoDB Express React Node
+
+COURS : https://github.com/bendahmanem/bts-sio-node-js-api/blob/main/API%20avec%20NodeJS.pdf

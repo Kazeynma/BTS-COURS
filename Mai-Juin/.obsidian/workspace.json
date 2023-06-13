@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81292057fc40192a",
+        "id": "80162bb725481a31",
         "type": "tabs",
         "children": [
           {
-            "id": "657c4b870e9e184e",
+            "id": "f414b836caffe11e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Création API REST.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c99887584bcefb0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Package.json.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2977792678cd4d7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typescript.md",
+                "file": "Dépendances.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Création API REST.md",
+                "file": "Dépendances.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Création API REST.md",
+                "file": "Dépendances.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Création API REST.md"
+                "file": "Dépendances.md"
               }
             }
           }
@@ -170,16 +146,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "657c4b870e9e184e",
+  "floating": {
+    "id": "ac89712f143ed3f9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9076ca17a1875bd0",
+        "type": "window",
+        "children": [
+          {
+            "id": "6b5079a6c0b0584e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c75d4b91996cdb14",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "API REST.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2264,
+        "y": 13,
+        "width": 1576,
+        "height": 1040,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f414b836caffe11e",
   "lastOpenFiles": [
-    "SiteWeb TIPS.md",
-    "Création API REST.md",
-    "Database - MongoDB.md",
-    "Typescript.md",
-    "React.md",
     "Package.json.md",
-    "Pasted image 20230605113423.png",
     "Dépendances.md",
+    "API REST.md",
+    "Pasted image 20230609114238.png",
+    "SiteWeb TIPS.md",
+    "Pasted image 20230608172600.png",
+    "Typescript.md",
+    "Pasted image 20230608160946.png",
+    "React.md",
+    "Database - MongoDB.md",
+    "Pasted image 20230605113423.png",
     "Pasted image 20230606120612.png",
     "Typscript-config.md",
     "Untitled.canvas"
